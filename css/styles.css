@@ -1,0 +1,190 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;   
+}
+.computer {
+    display: none; 
+}
+.logo {
+    margin: .50em 0 0 .50em;  
+    margin-bottom: 15px;  
+}
+ul {
+    list-style-type: none; 
+}
+li {
+    text-decoration: none;
+}
+/* master flex container */
+.flex-container {
+    background-color: #F2F2F2; 
+    display: flex;
+    flex-direction: column; 
+    text-decoration: none; 
+    justify-content: space-between; 
+}
+.bluelogo {
+    color: #20a8b4;
+}
+.redlogo {
+    color: #ff5c0f; 
+}
+.flex-container li a {
+    text-decoration: none; 
+    color: #000;    
+}
+.flex-container button a {
+    text-decoration: none; 
+    color: #fff; 
+}
+.flex-container button:hover {
+    background-color: #ff5c0f; 
+    color: white; 
+}
+
+.nav li a:hover {
+    color: #ff5c0f; 
+}
+.nav {
+    margin: 5px; 
+    margin-left: -24px;
+    margin-bottom: 10px; 
+}
+.nav li {
+    padding: 2px; 
+    margin: 2px; 
+}
+
+/* id styling */ 
+
+.button {
+    padding: 12px;
+    background-color: #20a8b4; 
+    border: none;
+    border-radius: 10px; 
+    color: white;
+    text-decoration: none;
+    margin-top: 6px; 
+    margin-bottom: 5px; 
+    justify-content: center;
+    width: 100%; 
+}
+/* master flex body */ 
+.flex-body {
+    display: flex; 
+    flex-direction: column; 
+    margin: 0; 
+    margin-left: 15px; 
+    margin-right: 5px; 
+}
+
+.learn {
+    padding: 12px;
+    background-color: #20a8b4; 
+    border: none;
+    border-radius: 10px; 
+    color: white;
+    text-decoration: none;
+    margin-top: 6px; 
+    margin-bottom: 5px; 
+    justify-content: center;
+    margin-right: 5px;
+    width: 100%; 
+}
+
+.learn a {
+    text-decoration: none; 
+    color: white; 
+}
+
+.learn:hover {
+    background-color: #ff5c0f;
+}
+
+
+h2 {
+    font-size: 18px; 
+    margin-top: 90px;
+}
+
+h3 {
+    font-size: 12px;
+    margin-top: -4px;  
+    text-decoration: none; 
+}
+
+.bodyorange {
+    color: #ff5c0f;
+}
+
+/* media queries */ 
+@media screen and (min-width: 768px) {
+    .flex-container {
+        background-color: #F2F2F2; 
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+        text-decoration: none; 
+        flex-direction: row;
+    }
+    .nav {
+        display: inline-block;  
+        margin-top: 15px; 
+    }
+    .nav li {
+        display: inline-block; 
+    }
+    .button {
+        padding: 12px;
+        background-color: #20a8b4; 
+        border: none;
+        border-radius: 10px; 
+        color: white;
+        text-decoration: none;
+        width: auto; 
+    }
+    .flex-body {
+        margin-top: 7%; 
+        display: flex; 
+        flex-direction: row; 
+    }
+    .learn {
+        padding: 12px;
+        background-color: #20a8b4; 
+        border: none;
+        border-radius: 10px; 
+        color: white;
+        text-decoration: none;
+        margin-top: 6px; 
+        margin-bottom: 5px; 
+        display: block; 
+        margin-left: 14px;
+        width: auto; 
+    }
+    h2 {
+        font-size: 22px; 
+        margin-top: 90px;
+        margin-left: 15px; 
+    }
+    
+    h3 {
+        font-size: 16px;
+        margin-top: -4px; 
+        margin-left: 16px; 
+        text-decoration: none; 
+    }
+    .computer {
+        display: block; 
+        width: 90%;
+        height: 90%; 
+    }
+    .left-half {
+        float: left;
+        width: 50%;
+      }
+      .right-half {
+        float: left;
+        width: 50%;
+      }
+  }
